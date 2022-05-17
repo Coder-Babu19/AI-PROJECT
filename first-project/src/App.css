@@ -1,0 +1,59 @@
+.bg-img {
+  /* The image used */
+  background-image: url("./components/images/masjid.jpg");
+  min-height: 450px;
+  -webkit-background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position:absolute;
+  margin: 20px;
+  width: 100%;
+ 
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+/* Navbar links */
+.topnav a {
+  /* float: left; */
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.topnav a:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}
+
+
+.home_heading {
+  color: green;
+}
+
+
+h1.home_heading:hover span {
+  color: green;
+  border-bottom: 5px solid yellow;
+}
+
+.input::selection {
+  box-shadow: none;
+}
